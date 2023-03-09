@@ -1,0 +1,49 @@
+{
+    "feedPost": [
+        {
+            "id": 1,
+            "profileImage": "https://blogzine.webestica.com/assets/images/avatar/02.jpg",
+            "profileName": "Alex Doe",
+            "postText": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. ",
+            "postImage": "https://fastly.picsum.photos/id/17/2500/1667.jpg?hmac=HD-JrnNUZjFiP2UZQvWcKrgLoC_pc_ouUSWv8kHsJJY",
+            "like": [],
+            "comments": []
+        },
+        {
+            "id": 2,
+            "profileImage": "https://blogzine.webestica.com/assets/images/avatar/09.jpg",
+            "profileName": "Shrishti",
+            "postText": "Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. ",
+            "postImage": "https://fastly.picsum.photos/id/7/4728/3168.jpg?hmac=c5B5tfYFM9blHHMhuu4UKmhnbZoJqrzNOP9xjkV4w3o",
+            "like": [],
+            "comments": []
+        },
+        {
+            "id": 3,
+            "profileImage": "https://blogzine.webestica.com/assets/images/avatar/11.jpg",
+            "profileName": "Amrita kumari",
+            "postText": "Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur ",
+            "postImage": "https://fastly.picsum.photos/id/74/4288/2848.jpg?hmac=q02MzzHG23nkhJYRXR-_RgKTr6fpfwRgcXgE0EKvNB8",
+            "like": [],
+            "comments": []
+        },
+        {
+            "id": 4,
+            "profileImage": "https://blogzine.webestica.com/assets/images/avatar/03.jpg",
+            "profileName": "Aman",
+            "postText": " Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. » ",
+            "postImage": "https://fastly.picsum.photos/id/8/5000/3333.jpg?hmac=OeG5ufhPYQBd6Rx1TAldAuF92lhCzAhKQKttGfawWuA",
+            "like": [],
+            "comments": []
+        },
+        {
+            "id": 5,
+            "profileImage": "https://blogzine.webestica.com/assets/images/avatar/04.jpg",
+            "profileName": "Ankesh kr",
+            "postText": " Excepteur sint obcaecat cupiditat non proident, sunt in incidunt ut labore et dolore magna aliqua. ",
+            "postImage": "https://fastly.picsum.photos/id/89/4608/2592.jpg?hmac=G9E4z5RMJgMUjgTzeR4CFlORjvogsGtqFQozIRqugBk",
+            "like": [],
+            "comments": []
+        }
+    ]
+}

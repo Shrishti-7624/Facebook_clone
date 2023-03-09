@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.postContainer {
+    max-width: 1230px;
+    margin: auto;
+}
+
+.profileContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border: 1px solid #2e81f4;
+}
+
+.profile {
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+    border-bottom: 1px solid #2e81f4;
+    padding-bottom: 5px;
+}
+
+.profileCont {
+    display: flex;
+    margin: 10px 50px;
+}
+
+.profileImage {
+    border-radius: 50%;
+    border: 1px solid green;
+    margin-left: 10px;
+    width: 25%;
+}
+
+.profileName {
+    padding: 0 0 0 15px;
+    font-size: 25px;
+}
+
+.edit,
+.delete {
+    padding: 7px;
+    margin-right: 10px;
+    background: #2e81f4;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+}
+
+.delete:hover {
+    cursor: pointer;
+}
+
+.edit {
+    cursor: pointer;
+}
+
+
+.feed {
+    flex: 1;
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedText {
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+
+.postImage {
+    width: 100%;
+}
+
+.button {
+    margin: 10px 50px;
+    width: 50%;
+    align-items: center;
+    display: flex;
+    
+}
+.like{
+    width: 20%;
+    margin-right: 5px;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 10px;
+    /* border: 0; */
+}
+.comment{
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.like:hover,.comment:hover{
+    cursor: pointer;
+}
+
+
+/* delete comment */
+.commentDelete{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 20px;
+    border: 1px solid #2e81f4;
+    padding: 5px;
+}
+.deleteComment{
+    width: 20px;
+}

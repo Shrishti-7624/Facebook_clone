@@ -1,0 +1,103 @@
+/* *{
+    background-color: #f0f2f5;
+} */
+.login{
+    max-width: 1320px;
+    margin: auto;
+    /* display: flex;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 100vh;
+    
+}
+
+.leftSection{
+    margin: auto;
+    padding-left: 100px;
+}
+.facebookTitle{
+    color: #1877f2;
+    font-size: 45px;
+}
+.facebookText{
+    color: #1c1e28;
+    font-size: 25px;
+}
+
+
+.formContainer{
+    background-color: white;
+    width: 65%;
+    margin: auto;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid gray;
+    padding: 20px;
+    background-color: white;
+}
+.email{
+    padding: 12px 0px 12px 12px;
+    color: rgb(0, 0, 0);
+    border: 2px solid #1877f2;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 16px;
+    background-color: white;
+}
+.email:hover{
+    border: 2px solid #1877f2;
+}
+.password{
+    padding: 12px 0px 12px 12px;
+    color: rgb(0, 0, 0);
+    border: 2px solid #1877f2;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 16px;
+    background-color: white;
+}
+.password:hover{
+    border: 2px solid #1877f2;
+}
+
+.loginbtn{
+    padding: 12px 0px 12px 12px;
+    background-color: #1877f2;
+    color: rgb(255, 255, 255);
+    border: 0;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 16px;
+    
+}
+.loginbtn:hover{
+    cursor: pointer;
+}
+
+.newAccountbtn{
+    padding: 12px;
+    background-color: #42b72a;
+    color: rgb(255, 255, 255);
+    border: 0;
+    border-radius: 5px;
+    margin: 20px 0 20px 20px;
+    font-size: 16px;
+    text-decoration: none;
+}
+.newAccountbtn:hover{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .login{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
